@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <style>
+        button:hover {
+            background-color: red;
+        }
+
+    </style>
+    <script type="text/javascript">
+        var l=['r','p','s'];
+        var comp_value;
+        var messages=['It\'s a TIE!! ','You WON!!!!','You LOST!! Try Again!!'];
+        function generate(inp_val)
+        {
+            comp_value=l[Math.floor(Math.random() * 3)];
+            switch (inp_val) {
+                case 'r':{
+                    if(comp_value=='s')
+                        return 1;
+                    else if(comp_value=='p')
+                        return 2;
+                    else
+                        return 0;
+
+                }
+                case 'p':{
+                    if(comp_value=='r')
+                        return 1;
+                    else if(comp_value=='s')
+                        return 2;
+                    else
+                        return 0;
+
+                }
+                case 's':{
+                    if(comp_value=='p')
+                        return 1;
+                    else if(comp_value=='r')
+                        return 2;
+                    else
+                        return 0;
+
+                }
+            }
+            console.log(p);
+        }
+        function show_result(inp_val)
+        {
+            document.getElementById("c");
+            var res=generate(inp_val);
+            setTimeout(function(){ document.getElementById("c");
+                if(comp_value=='r')
+                    document.getElementById("c").setAttribute("src","rock.jpeg");
+                else if(comp_value=='p')
+                    document.getElementById("c").setAttribute("src","paper.jpeg");
+                else if(comp_value=='s')
+                    document.getElementById("c").setAttribute("src","scissors.jpeg");
+                // alert(messages[res]);
+                document.getElementById("t").innerHTML=messages[res];
+                setTimeout(function() {
+                    document.getElementById("c").setAttribute("src", "comp.png");
+                    document.getElementById("t").innerHTML='';
+                },3000);
+            }, 3000);
+
+
+
+        }
+    </script>
+</head>
+<body>
+<div>
+    <H1>You</H1>
+    <button id="r" onclick="show_result('r');"> <img src="rock.jpeg" alt="rock"></button>
+    <button id="p" onclick="show_result('p');"> <img src="paper.jpeg" alt="paper"></button>
+    <button id="s" onclick="show_result('s');"> <img src="scissors.jpeg" alt="scissors"></button>
+
+</div>
+<div>
+    <H1>Computer</H1>
+    <img id="c" src="comp.png" alt="Computer" ><h1 id="t" style="color:red;font-size: large"></h1>
+
+</div>
+
+</body>
+</html>
