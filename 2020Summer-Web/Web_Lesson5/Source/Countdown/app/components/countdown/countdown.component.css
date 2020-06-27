@@ -1,0 +1,39 @@
+button {
+  padding: 6px;
+  border-radius: 6px;
+  background: #FFFFFF;
+  margin: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  border: 1px solid #FFFFFF;
+  color: seagreen;
+
+}
+
+ng-container {
+  font-size: 48px;
+  color: seagreen;
+}
+.da{
+  font-size: 54px;
+  color: seagreen;
+}
+
+
+
+:host {
+  font-size: 100px;
+  color: #FFFFFF;
+}
+
+.description {
+  font-size: 20px;
+  color: seagreen;
+}
+.ab {
+  font-size: 40px;
+  color: seagreen;
+}
+.bc {
+  font-size: 40px;
+  color: seagreen;
+}
