@@ -24,7 +24,6 @@
       <change afterPath="$PROJECT_DIR$/ICP/countdown/src/app/services/contentful.service.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ICP/countdown/src/app/services/synthesis.service.spec.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ICP/countdown/src/app/services/synthesis.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ICP/ToDoICP/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/ICP/ToDoICP/src/app/app.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ICP/ToDoICP/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ICP/ToDoICP/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ICP/ToDoICP/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ICP/ToDoICP/src/app/app.component.ts" afterDir="false" />
@@ -104,7 +103,7 @@
       <workItem from="1593236817863" duration="972000" />
       <workItem from="1593237800798" duration="1590000" />
       <workItem from="1593239676855" duration="6164000" />
-      <workItem from="1593291508812" duration="3704000" />
+      <workItem from="1593291508812" duration="4210000" />
     </task>
     <servers />
   </component>
