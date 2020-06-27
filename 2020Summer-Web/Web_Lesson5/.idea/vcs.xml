@@ -5,5 +5,7 @@
     <mapping directory="$PROJECT_DIR$/ICP/ToDoICP" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ICP/countdown" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ICP/countdown-rxjs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ToDoICP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/countdown" vcs="Git" />
   </component>
 </project>
