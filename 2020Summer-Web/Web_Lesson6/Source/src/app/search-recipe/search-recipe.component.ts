@@ -78,6 +78,7 @@ export class SearchRecipeComponent implements OnInit {
               'url': data.hits[i].recipe.url,
               'icon': data.hits[i].recipe.image
             };
+            console.log(this.recipeList[i]);
           }
         });
     }
