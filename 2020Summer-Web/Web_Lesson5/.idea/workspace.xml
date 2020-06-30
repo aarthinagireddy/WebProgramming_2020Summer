@@ -20,23 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="702aaecf-9a47-403b-9397-54bd164517ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/countdown/src/app/services/contentful.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countdown/src/app/services/contentful.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countdown/src/app/services/synthesis.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countdown/src/app/services/synthesis.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoICP/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoICP/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoICP/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoICP/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoICP/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoICP/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/countdown/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/countdown/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/countdown/src/app/components/countdown/countdown.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/countdown/src/app/components/countdown/countdown.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/countdown/src/app/components/countdown/countdown.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/countdown/src/app/components/countdown/countdown.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/countdown/src/app/components/countdown/countdown.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/countdown/src/app/components/countdown/countdown.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/countdown/src/app/components/countdown/countdown.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/countdown/src/app/components/countdown/countdown.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/countdown/src/app/components/time-input/time-input.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/countdown/src/app/components/time-input/time-input.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/countdown/src/app/components/time-input/time-input.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/countdown/src/app/components/time-input/time-input.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/countdown/src/app/components/time-input/time-input.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/countdown/src/app/components/time-input/time-input.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/countdown/src/app/directives/input-to-countdown.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/countdown/src/app/directives/input-to-countdown.directive.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/countdown/src/app/pipes/time-format.pipe.ts" beforeDir="false" afterPath="$PROJECT_DIR$/countdown/src/app/pipes/time-format.pipe.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ToDoICP" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1dn1GY9JxbNeO7EVmbYqmqqYRAg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -60,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedtslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../Program Files/nodejs/node_modules/npm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Web_Lesson6" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="$PROJECT_DIR$/../../../../../../../Program Files/nodejs/node" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -105,6 +89,8 @@
       <workItem from="1593239676855" duration="6164000" />
       <workItem from="1593291508812" duration="4210000" />
       <workItem from="1593297427809" duration="2473000" />
+      <workItem from="1593496249277" duration="171000" />
+      <workItem from="1593496430032" duration="15000" />
     </task>
     <servers />
   </component>
@@ -136,10 +122,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="509" y="91" width="608" height="498" key="EnvironmentVariablesDialog/0.0.1280.680@0.0.1280.680" timestamp="1593065248724" />
-    <state x="556" y="164" key="FileChooserDialogImpl" timestamp="1593064850036">
+    <state x="556" y="164" key="FileChooserDialogImpl" timestamp="1593496439008">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="556" y="164" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1593064850036" />
+    <state x="556" y="164" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1593496439008" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1593065012674">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

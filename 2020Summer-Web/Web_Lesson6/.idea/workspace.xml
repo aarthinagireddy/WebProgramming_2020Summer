@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce2fa193-b3ef-4fed-bba0-21aca5577bec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ICE-MashUp/MashUp/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICE-MashUp/MashUp/images/google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICE-MashUp/MashUp/src/app/header/header.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICE-MashUp/MashUp/src/app/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICE-MashUp/MashUp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICE-MashUp/MashUp/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/ICE-MashUp/MashUp/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICE-MashUp/MashUp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ICE-MashUp/MashUp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICE-MashUp/MashUp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ICE-MashUp/MashUp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICE-MashUp/MashUp/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ICE-MashUp/MashUp/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICE-MashUp/MashUp/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/ICE-MashUp/MashUp/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICE-MashUp/MashUp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ICE-MashUp/MashUp/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICE-MashUp/MashUp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ICE-MashUp/MashUp/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCase/MyWiki/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCase/MyWiki/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/UseCase/MyWiki/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCase/MyWiki/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/UseCase/MyWiki/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCase/MyWiki/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/UseCase/MyWiki/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCase/MyWiki/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/UseCase/MyWiki/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCase/MyWiki/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/UseCase/MyWiki/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCase/MyWiki/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/UseCase/MyWiki/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCase/MyWiki/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/UseCase/MyWiki/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCase/MyWiki/src/assets/.gitkeep" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ICE-MashUp/MashUp" />
+  </component>
+  <component name="ProjectId" id="1e1k3U43Z12mD3ID1srWP3Ial84" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce2fa193-b3ef-4fed-bba0-21aca5577bec" name="Default Changelist" comment="" />
+      <created>1593496286981</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593496286981</updated>
+      <workItem from="1593496288401" duration="127000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1593496414760">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593496414760" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1593496414760">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593496414760" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1593496414760">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593496414760" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1593496414760">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593496414760" />
+  </component>
+</project>
