@@ -1,57 +1,35 @@
 package com.example.vijaya.androidhardware;
 
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
-import android.graphics.drawable.BitmapDrawable;
-import android.os.Build;
 import android.provider.MediaStore;
-import android.support.annotation.RequiresApi;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 public class CameraActivity extends AppCompatActivity {
+    public static final int CAMERA_REQ = 01;
 
-    int TAKE_PHOTO_CODE = 0;
-    ImageView userImage ;
-    private static final int MY_CAMERA_REQUEST_CODE = 100;
-
-    @RequiresApi(api = Build.VERSION_CODES.M)
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_camera);
-        Button capture = (Button) findViewById(R.id.btnCam);
-        userImage = (ImageView) findViewById(R.id.imgView);
-
-        //Button click eventlistener. Initializes the camera.
-        Toast.makeText(this,"In camera activity",Toast.LENGTH_SHORT).show();
-        if (checkSelfPermission(android.Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
-            requestPermissions(new String[]{android.Manifest.permission.CAMERA}, MY_CAMERA_REQUEST_CODE);
-        }
-    }
-    public void callCamera(View v) {
-
-        Intent cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        if (cameraIntent.resolveActivity(getPackageManager()) != null) {
-            startActivityForResult(cameraIntent, TAKE_PHOTO_CODE);
-        }
     }
 
-    //If the photo is captured then set the image view to the photo captured.
+    public void openCamera(View view) {
+        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        startActivityForResult(intent, CAMERA_REQ);
+    }
+
     @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == TAKE_PHOTO_CODE && resultCode == RESULT_OK) {
-            Bitmap photo = (Bitmap) data.getExtras().get("data");
-            userImage.setImageBitmap(photo);
-            Log.d("CameraDemo", "Pic saved");
-
+        if (requestCode == CAMERA_REQ) {
+            Bitmap bitmap = (Bitmap) data.getExtras().get("data");
+            ImageView imgV = findViewById(R.id.imgView);
+            imgV.setImageBitmap(bitmap);
         }
     }
-
 }
