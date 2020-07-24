@@ -124,55 +124,5 @@ public class EmployerActivity extends AppCompatActivity {
         binding.recycleView.setAdapter(new SampleRecyclerViewCursorAdapter(this, cursor));
     }
 
-    private void updateFromDB(){
-        String name = binding.nameEditText.getText().toString();
-        String desc = binding.descEditText.getText().toString();
-        long date = 0;
-
-        try {
-            Calendar calendar = Calendar.getInstance();
-            calendar.setTime((new SimpleDateFormat("dd/MM/yyyy")).parse(
-                    binding.foundedEditText.getText().toString()));
-            date = calendar.getTimeInMillis();
         }
-        catch (Exception e) {}
-        SQLiteDatabase database = new SampleDBSQLiteHelper(this).getWritableDatabase();
-
-        ContentValues contentValues = new ContentValues();
-        contentValues.put(SampleDBContract.Employer.COLUMN_NAME, name);
-        contentValues.put(SampleDBContract.Employer.COLUMN_DESCRIPTION, desc);
-        contentValues.put(SampleDBContract.Employer.COLUMN_FOUNDED_DATE, date);
-
-        String selection =
-                SampleDBContract.Employer.COLUMN_NAME + " like ?";
-        String[] selectionArgs = {"%" + name};
-        int newRowId = database.update(SampleDBContract.Employer.TABLE_NAME, contentValues, selection , selectionArgs );
-        Toast.makeText(this, "The updated Row Id is " + newRowId, Toast.LENGTH_LONG).show();
-    }
-    private void deleteFromDB() {
-
-        String name = binding.nameEditText.getText().toString();
-        String desc = binding.descEditText.getText().toString();
-        long date = 0;
-
-        try {
-            Calendar calendar = Calendar.getInstance();
-            calendar.setTime((new SimpleDateFormat("dd/MM/yyyy")).parse(
-                    binding.foundedEditText.getText().toString()));
-            date = calendar.getTimeInMillis();
-        }
-        catch (Exception e) {}
-        SQLiteDatabase database = new SampleDBSQLiteHelper(this).getWritableDatabase();
-        ContentValues values = new ContentValues();
-        values.put(SampleDBContract.Employer.COLUMN_NAME, binding.nameEditText.getText().toString());
-        String selection =
-                SampleDBContract.Employer.COLUMN_NAME + " like ? and " +
-                        SampleDBContract.Employer.COLUMN_FOUNDED_DATE + " > ? and " +
-                        SampleDBContract.Employer.COLUMN_DESCRIPTION + " like ?";
-        String[] selectionArgs = {"%" + name + "%", date + "", "%" + desc + "%"};
-        long newRowId = database.delete(SampleDBContract.Employer.TABLE_NAME, selection, selectionArgs );
-        Toast.makeText(this, "The deleted Row Id is " + newRowId, Toast.LENGTH_LONG).show();
-
-    }
-    }
 
