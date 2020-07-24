@@ -123,6 +123,5 @@ public class EmployerActivity extends AppCompatActivity {
 
         binding.recycleView.setAdapter(new SampleRecyclerViewCursorAdapter(this, cursor));
     }
-
-        }
+}
 
