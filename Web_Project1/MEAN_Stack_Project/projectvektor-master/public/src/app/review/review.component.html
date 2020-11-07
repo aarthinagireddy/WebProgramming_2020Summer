@@ -1,0 +1,32 @@
+<img id="register" src="assets/images/book.jpg">
+<div *ngIf="course" class="container">
+  <h2>Register for {{course.name}}</h2>
+  <h4>{{course.location}}</h4>
+  <h4>{{course.date | date: 'MMM dd, yyyy'}}</h4>
+  <form (submit)="registerStudent(course._id)">
+    <p class="errors" *ngFor="let err of errors">{{err}}</p>
+
+    <div class="form-group">
+        Provide your Name:
+        <input class="form-control" type="text" name="student.callsign" [(ngModel)]="student.callsign">
+    </div>
+
+    <div class="form-group">
+        Describe your specialized skills or attributes:
+        <textarea class="form-control" type="text" name="student.specialty" [(ngModel)]="student.specialty"></textarea>
+    </div>
+
+    <div class="form-group">
+        Please disclose your proficiency for the course(on the scale of 0 to 9) :
+        <input class="form-control" type="text" name="student.luckynumber" [(ngModel)]="student.luckynumber">
+    </div>
+
+    <input class="btn btn-primary btn-lg" type="submit" value="Register">
+    <button class="btn btn-link btn-lg" [routerLink]="['/vektor/courses']">Cancel</button>
+  </form>
+</div>
+<br>
+
+<button [routerLink]="['/vektor/about']" id="support_btn"><span class="glyphicon glyphicon-question-sign"></span> Support</button>
+
+

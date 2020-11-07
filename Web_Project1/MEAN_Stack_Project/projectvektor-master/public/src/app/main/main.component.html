@@ -1,0 +1,56 @@
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="assets/images/three.jpg" class="img-responsive">
+    </div>
+
+    <div class="item">
+      <img src="assets/images/two.jpg" class="img-responsive">
+    </div>
+
+    <div class="item">
+      <img src="assets/images/one.jpg" class="img-responsive">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div id="about" class="container text-center">
+  <h1>About <span id="vektor">SHIFU</span></h1>
+  <h2><em>Course Registration & Management</em></h2>
+  <p class="text-justify" style="font-size: 20px">Shifu provides Course creation and registration solutions for any training centers,
+    corporate and workforce training organizations. This Platform makes it easy  for students to register for the classes
+    with a simple enrollment form. Securely collects the student information
+    and course selection data to make the online course enrollment a smooth and efficient process.</p>
+  <h5> Google Maps and Books API are also integrated in this application. </h5>
+  <br>
+</div>
+
+<div class="hovereffect">
+  <img src="assets/images/street.jpg" class="img-responsive">
+  <div class="overlay">
+    <h2>Mission</h2>
+    <p>Learn on your schedule and convenience!</p>
+    <button id="bttn" [routerLink]="['courses']"class="btn btn-secondary btn-lg">View Courses</button>
+  </div>
+</div>
+
+<button [routerLink]="['/vektor/contact']" id="support_btn"><span class="glyphicon glyphicon-question-sign"></span> Support</button>
+

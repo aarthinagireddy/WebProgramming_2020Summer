@@ -1,0 +1,53 @@
+<div class="jumbotron text-center">
+    <h1>Course Creation</h1>
+    <p>Fill in the below fields to create a course</p>
+</div>
+
+<div class="container">
+    <!-- <h3>Host an engagement</h3> -->
+    <form (submit)="addNew()">
+        <p class="errors" *ngFor="let err of errors">{{err}}</p>
+
+        <div class="form-group">
+            Course Name:
+            <input class="form-control" type="text" name="new.name" [(ngModel)]="new.name">
+        </div>
+
+        <div class="form-group">
+            Description:
+            <textarea class="form-control" type="text" name="new.description" [(ngModel)]="new.description"></textarea>
+        </div>
+
+        <div class="form-group">
+            Instructor:
+            <input class="form-control" type="text" name="new.instructor" [(ngModel)]="new.instructor">
+        </div>
+
+        <div class="form-group">
+            Location:
+            <input id="pac-input" class="form-control" type="text" name="new.location" [(ngModel)]="new.location">
+        </div>
+
+        <div id="infowindow-content">
+            <img src="" width="16" height="16" id="place-icon">
+            <span id="place-name" class="title"></span><br>
+            <span id="place-address"></span>
+        </div>
+
+        <div class="form-group">
+            Date:
+            <input class="form-control" type="date" name="new.date" [(ngModel)]="new.date">
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+            <input class="btn btn-primary btn-lg btn-block" type="submit" value="Create">
+        </div>
+        <div class="col-sm-12 col-md-6">
+            <button class="btn btn-link btn-lg btn-block" [routerLink]="['/vektor']">Cancel</button>
+        </div>
+    </form>
+</div>
+<br>
+<div id="map"></div>
+
+<button [routerLink]="['/vektor/contact']" id="support_btn"><span class="glyphicon glyphicon-question-sign"></span> Support</button>

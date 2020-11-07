@@ -1,0 +1,92 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand">SHIFU</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/vektor">HOME</a></li>
+        <li><a href="/vektor/courses">COURSES</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">RESOURCES
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/vektor/about">Video Resources</a></li>
+            <li><a href="/vektor/books">Google Books</a></li>
+
+          </ul>
+
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/vektor/new">Course Creation</a></li>
+            <li><a href="/vektor/contact">Contact</a></li>
+
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Keep to preserve ability to append content -->
+<router-outlet (activate)="onActivate($event)"></router-outlet>
+<div id="map"></div>
+<footer class="page-footer">
+  <div class="container-fluid text-md-left">
+
+    <div class="row">
+      <div class="col-md-3 mb-md-0 mb-3">
+        <h5 class="text-uppercase">Courses</h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="/vektor/courses">Web Programming</a>
+          </li>
+          <li>
+            <a href="/vektor/courses">Mobile Programming</a>
+          </li>
+          <li>
+            <a href="/vektor/courses">Operating Systems</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 mb-md-0 mb-3">
+        <h5 class="text-uppercase">Instructors</h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="/vektor">Vijaya</a>
+          </li>
+          <li>
+            <a href="/vektor">Dr.Lee</a>
+          </li>
+          <li>
+            <a href="/vektor">Duk</a>
+          </li>
+          <li>
+            <a href="/vektor">Ryan</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-6 mt-md-0 mt-3 text-center">
+        <h5 class="text-uppercase"><span class="glyphicon glyphicon-envelope envelope"></span> JOIN THE NEWSLETTER</h5>
+        <p>Get the latest news on courses, instructors, and Shifu events directly to your inbox</p>
+        <button id="newsletter" [routerLink]="['/vektor/contact']">Get the Newsletter</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="text-center">
+    <br>
+    <p>Shifu</p>
+  </div>
+</footer>

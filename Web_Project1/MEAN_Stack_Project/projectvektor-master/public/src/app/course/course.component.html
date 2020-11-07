@@ -1,0 +1,39 @@
+<div *ngIf="course" class="container">
+  <div class="col-sm-12 col-md-6 pull-left">
+    <h2>{{course.name}}</h2>
+    <p>{{course.location}}</p>
+    <p>{{course.date | date: 'MMM dd, yyyy'}}</p>
+    <p>Instructor: {{course.instructor}}</p>
+    <p>Course Description: {{course.description}}</p>
+
+    <button id="btn" class="btn btn-outline-primary" [routerLink]="['signup']">Register for Course</button>
+  </div>
+  <figure id="figure" class="col-sm-12 col-md-6 noPadding">
+    <img id="course" src="assets/images/knowledge.jpg" class="img-responsive">
+  </figure>
+
+  <div *ngIf="course.students[0];else the_other_thing" class="row justify-content-center">
+    <h3>Participants</h3>
+    <table class="table table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th>Name</th>
+          <th>Proficiency Level(On the scale of 0 to 9)</th>
+          <th>Specialty</th>
+        </tr>
+      </thead>
+      <tr *ngFor="let student of course['students']">
+        <td>{{student.callsign}}</td>
+        <td>{{student.luckynumber}}</td>
+        <td>{{student.specialty}}</td>
+      </tr>
+    </table>
+  </div>
+  <ng-template #the_other_thing>
+    <h3 id="alert">Be the first to participate in this course</h3>
+  </ng-template>
+
+</div>
+
+<button [routerLink]="['/vektor/contact']" id="support_btn"><span class="glyphicon glyphicon-question-sign"></span> Support</button>
+

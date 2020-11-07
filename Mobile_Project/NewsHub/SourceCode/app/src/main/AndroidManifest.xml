@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="yamini.newshub.summer.mobileproject">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logooo"
+        android:label="NEWS HUB"
+        android:roundIcon="@drawable/logooo"
+        android:supportsRtl="true"
+        android:theme="@style/MaterialTheme">
+        <activity android:name="yamini.newshub.summer.mobileproject.YoutubeActivity"></activity>
+        <activity android:name="yamini.newshub.summer.mobileproject.Activity.homefinal" />
+        <activity android:name="yamini.newshub.summer.mobileproject.Activity.Animation.Dolphin"
+            tools:ignore="MissingClass" />
+        <activity android:name="yamini.newshub.summer.mobileproject.Activity.RoomData" />
+        <activity
+            android:name="yamini.newshub.summer.mobileproject.Activity.HomeActivity"
+            android:theme="@style/MaterialTheme" />
+        <activity android:name="yamini.newshub.summer.mobileproject.Activity.splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="yamini.newshub.summer.mobileproject.Activity.DeepNews"
+            android:parentActivityName="yamini.newshub.summer.mobileproject.Activity.MainActivity" />
+        <activity android:name="yamini.newshub.summer.mobileproject.Activity.MainActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4528420242999185~8648939881" />
+    </application>
+
+</manifest>
